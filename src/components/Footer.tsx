@@ -15,7 +15,7 @@ const Footer = () => {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Gambhir Jha</h3>
+          <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Prachi Ukey</h3>
           <p className="text-gray-400 text-sm sm:text-base mb-4 sm:mb-6">{portfolioData.personal.headline}</p>
 
           <div className="flex justify-center space-x-4 sm:space-x-6 mb-6 sm:mb-8">
@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
 
           <p className="text-gray-500 text-xs sm:text-sm">
-            © {currentYear} Gambhir Jha. All rights reserved.
+            © {currentYear} Prachi Ukey. All rights reserved.
           </p>
         </motion.div>
       </div>

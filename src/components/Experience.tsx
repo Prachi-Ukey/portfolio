@@ -1,10 +1,13 @@
 import { motion } from "framer-motion";
-import { Briefcase, Calendar, MapPin, ExternalLink } from "lucide-react";
+import { Briefcase, Calendar } from "lucide-react";
 import { portfolioData } from "../data/portfolio";
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-16 sm:py-20 bg-gradient-to-b from-black to-gray-900">
+    <section
+      id="experience"
+      className="py-16 sm:py-20 bg-gradient-to-b from-black to-gray-900"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -18,7 +21,11 @@ const Experience = () => {
               <Briefcase className="w-7 h-7 sm:w-8 sm:h-8 text-blue-400" />
             </div>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Experience</h2>
+
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+            Experience
+          </h2>
+
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto"></div>
         </motion.div>
 
@@ -37,34 +44,29 @@ const Experience = () => {
               >
                 <div className="flex items-start">
                   <div className="absolute left-4 sm:left-0 md:left-1/2 transform md:-translate-x-1/2 w-3 h-3 sm:w-4 sm:h-4 bg-blue-500 rounded-full border-4 border-gray-900 z-10"></div>
+
                   <div className="flex-1 ml-12 sm:ml-8 md:ml-0 md:px-8">
                     <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-5 sm:p-6 border border-white/10 hover:border-white/20 transition-all duration-300">
-                      <h3 className="text-lg sm:text-xl font-bold text-white mb-2">{exp.company}</h3>
-                      <p className="text-blue-400 font-semibold text-sm sm:text-base mb-2 sm:mb-3">{exp.role}</p>
-                      <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-gray-400 text-xs sm:text-sm mb-3 sm:mb-4">
+                      <h3 className="text-lg sm:text-xl font-bold text-white mb-2">
+                        {exp.company}
+                      </h3>
+
+                      <p className="text-blue-400 font-semibold text-sm sm:text-base mb-2 sm:mb-3">
+                        {exp.role}
+                      </p>
+
+                      <div className="flex items-center gap-3 sm:gap-4 text-gray-400 text-xs sm:text-sm mb-3 sm:mb-4">
                         <div className="flex items-center">
                           <Calendar className="w-3.5 h-3.5 sm:w-4 sm:h-4 mr-1.5 sm:mr-2" />
-                          <span className="text-xs sm:text-sm">{exp.dates}</span>
+                          <span className="text-xs sm:text-sm">
+                            {exp.dates}
+                          </span>
                         </div>
-                        {exp.location && (
-                          <div className="flex items-center">
-                            <MapPin className="w-3.5 h-3.5 sm:w-4 sm:h-4 mr-1.5 sm:mr-2" />
-                            <span className="text-xs sm:text-sm">{exp.location}</span>
-                          </div>
-                        )}
                       </div>
-                      <p className="text-gray-300 text-sm sm:text-base leading-relaxed">{exp.description}</p>
-                      {exp.website && (
-                        <a
-                          href={exp.website}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center mt-3 sm:mt-4 text-blue-400 hover:text-blue-300 transition-colors duration-200 text-sm sm:text-base"
-                        >
-                          <ExternalLink className="w-3.5 h-3.5 sm:w-4 sm:h-4 mr-2" />
-                          Visit Website
-                        </a>
-                      )}
+
+                      <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
+                        {exp.description}
+                      </p>
                     </div>
                   </div>
                 </div>

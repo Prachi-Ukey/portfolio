@@ -1,92 +1,135 @@
 export const portfolioData = {
   personal: {
-    name: "Gambhir Jha",
-    headline: "BCA (AI & DL – IBM) Student | Aspiring Data Analyst & Software Developer",
-    phone: "7484935055",
-    email: "jhagambhirkumar@gmail.com",
-    linkedin: "https://www.linkedin.com/in/gambhir-jha-424041362",
-    github: "https://github.com/Gambhir2006",
+    name: "Prachi Ukey",
+    headline: "Computer Engineering Graduate | Software Developer",
+    phone: "7350992627",
+    email: "ukeyp9051@gmail.com",
+    linkedin: "https://www.linkedin.com/in/prachi-ukey-02573b2a2/",
+    github: "https://github.com/Prachi-Ukey",
   },
+
   education: {
-    degree: "Bachelor of Computer Applications – Artificial Intelligence & Data Science (AI & DL – IBM)",
-    university: "ARKA JAIN UNIVERSITY, Jharkhand",
-    duration: "2024–2027",
+    degree: "B.E. in Computer Engineering",
+    university: "Genba Sopanrao Moze College of Engineering, Pune",
+    duration: "2022–2026",
     cgpa: [
-      { semester: "Sem 1", value: 8.75 },
-      { semester: "Sem 2", value: 9.00 },
-      { semester: "Sem 3", value: 9.47 },
-      { semester: "Sem 4", value: 9.50 },
+      { semester: "Overall CGPA", value: 7.96 },
     ],
   },
+
   skills: {
-    programming: ["C++", "Python", "JavaScript"],
-    frontend: ["HTML", "CSS", "React.js"],
-    aiBackend: ["Ollama", "Llama 3.2", "Generative AI", "Flask", "API Integration"],
-    dataAnalytics: ["Power BI", "MS Excel", "SPSS Modeler"],
-    tools: ["Git", "GitHub", "MS Word", "PowerPoint"],
+    programming: ["Python", "Java", "JavaScript", "SQL"],
+
+    frontend: [
+      "HTML",
+      "CSS",
+      "React.js",
+      "Tailwind CSS",
+      "Bootstrap",
+      "React Router",
+    ],
+
+    backend: [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Axios",
+    ],
+
+    databases: [
+      "MySQL",
+      "MongoDB",
+    ],
+
+    dataAnalytics: [
+      "Power BI",
+      "MS Excel",
+    ],
+
+    corecs: [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "DBMS",
+    ],
+
+    tools: [
+      "Git",
+      "GitHub",
+      "Postman",
+      "JDBC",
+      "Swing",
+      "AWT",
+    ],
   },
+
   experience: [
     {
-      company: "Patel Heat Treatment Engineering",
-      role: "Data Analytics Intern",
-      location: "Faridabad, Haryana",
-      dates: "20 May 2026 – 20 July 2026",
-      description: "Worked on data handling, analysis and reporting in an industrial environment.",
-    },
-    {
-      company: "N2B Consumer Products Pvt. Ltd.",
-      role: "Data Analytics Intern",
-      location: "Faridabad, Haryana",
-      dates: "01 July 2026 – 01 August 2026",
-      description: "Gained practical exposure to data analysis, reporting and analytics workflows.",
-    },
-    {
-      company: "CareerFi India",
-      role: "Intern",
-      website: "https://careerfi.in/",
-      description: "Worked on career-focused digital content, SEO-based content and web publishing.",
+      company: "Codtech IT Solutions",
+      role: "Web Developer Intern",
+      dates: "15 Jan 2025 – 15 Feb 2025",
+      description:
+        "Engineered responsive and interactive web applications using HTML5, CSS3, JavaScript, React.js, and Tailwind CSS, developing reusable UI components, implementing modern responsive designs, and optimizing frontend performance for seamless cross-device user experiences.",
     },
   ],
+
   projects: [
     {
-      name: "Personal AI Assistant",
-      technology: ["React", "Ollama", "Llama 3.2"],
-      description: "Developed a local AI assistant with a React frontend and Ollama-powered Llama 3.2.",
-      liveDemo: "https://personal-assistant-pied-one.vercel.app",
+      name: "Real-Time Chat Application",
+      technology: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Socket.IO",
+        "JWT",
+      ],
+      description:
+        "Developed a real-time chat application with user authentication, one-to-one messaging, online user status, timestamps, image sharing, emoji support, and protected routes.",
+      github: "https://github.com/Prachi-Ukey/realtime-chat-application",
     },
+
     {
-      name: "Keystroke-Based MFA System",
-      technology: ["Python", "Flask", "JavaScript", "Machine Learning"],
-      description: "Developed a behavioral authentication system using keystroke dynamics for secure login.",
-      liveDemo: "https://keystroke-mfa-two.vercel.app",
+      name: "Vehicle Damage Assessment and Insurance Cost Prediction System",
+      technology: [
+        "Python",
+        "YOLOv8",
+        "OpenCV",
+        "Flask",
+        "MySQL",
+        "Scikit-learn",
+      ],
+      description:
+        "Developed an AI-based system to detect and localize vehicle damage, estimate damage severity, and predict insurance claim costs using computer vision and machine learning.",
+      github: "https://github.com/Prachi-Ukey/vehicle-damage-detection",
     },
+
     {
-      name: "RescueBite",
-      category: "Food Waste Redistribution Platform",
-      description: "Designed a provider → listing → receiver → pickup workflow for food redistribution.",
-    },
-    {
-      name: "IPL 2025 Performance Analysis",
-      technology: ["SPSS Modeler"],
-      description: "Analyzed IPL performance data using data preparation, analysis and visualization techniques.",
-    },
-    {
-      name: "Personal Portfolio Website",
-      description: "Developed a responsive portfolio website showcasing education, skills and projects.",
+      name: "Bank Management System",
+      technology: [
+        "Java",
+        "Swing",
+        "AWT",
+        "JDBC",
+        "MySQL",
+      ],
+      description:
+        "Developed a desktop-based bank management system with a Java Swing interface and MySQL database integration for managing customer accounts and banking operations.",
+      github: "https://github.com/Prachi-Ukey/Bank-Management-System",
     },
   ],
+
   achievements: [
-    "Won certificates and trophies in university-level cricket competitions.",
-    "Participated in professional cricket and Fit India sports competitions.",
-    "Participated in university debates, group discussions and extracurricular activities.",
+    "Completed Bachelor of Engineering in Computer Engineering in 2026.",
+    "Solved 400+ problems on LeetCode while improving Data Structures and Algorithms skills.",
   ],
+
   careerInterests: [
-    "Artificial Intelligence",
-    "Generative AI",
-    "Data Analytics",
-    "Machine Learning",
-    "React Development",
     "Software Development",
+    "Python Development",
     "Web Development",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Data Analytics",
+    "Generative AI",
   ],
 };

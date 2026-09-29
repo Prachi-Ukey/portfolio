@@ -30,13 +30,13 @@ const About = () => {
         >
           <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-6 sm:p-8 border border-white/10">
             <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4 sm:mb-6">
-              I am a BCA (AI & DL – IBM) student at ARKA JAIN UNIVERSITY, Jharkhand, passionate about Data Analytics, Artificial Intelligence, Generative AI, and Software Development. With a strong academic foundation and practical project experience, I focus on building intelligent software solutions and data-driven applications.
+              I am a Computer Engineering graduate (2026) from Genba Sopanrao Moze College of Engineering, Pune, with a strong interest in Software Development, Web Development, Artificial Intelligence, and Data Analytics. I enjoy building practical applications and solving real-world problems through technology.
             </p>
             <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4 sm:mb-6">
-              My journey in technology is driven by curiosity and a desire to solve real-world problems through innovative solutions. I have experience working with various technologies including React, Python, Flask, and data analytics tools like Power BI and SPSS Modeler.
+              I have hands-on experience with technologies including Python, Java, JavaScript, React.js, Node.js, Express.js, MySQL, MongoDB, and REST APIs. During my Web Developer internship at Codtech IT Solutions, I worked on developing responsive and interactive web applications using modern frontend technologies.
             </p>
             <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-              I am actively seeking internship opportunities where I can apply my skills in AI, data analytics, and software development while continuing to learn and grow in a professional environment.
+              I am actively seeking entry-level Software Developer opportunities where I can apply my skills in software development, web development, Python, and AI while continuing to learn and grow in a professional environment.
             </p>
           </div>
         </motion.div>

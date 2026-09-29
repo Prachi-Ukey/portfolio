@@ -39,7 +39,7 @@ const Education = () => {
             <div className="border-t border-white/10 pt-5 sm:pt-6">
               <div className="flex items-center mb-3 sm:mb-4">
                 <TrendingUp className="w-4 h-4 sm:w-5 sm:h-5 text-green-400 mr-2" />
-                <h4 className="text-base sm:text-lg font-semibold text-white">CGPA Progression</h4>
+                <h4 className="text-base sm:text-lg font-semibold text-white">Academic Performance</h4>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
                 {portfolioData.education.cgpa.map((item, index) => (

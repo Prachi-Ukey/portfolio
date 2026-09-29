@@ -67,7 +67,7 @@ const Hero = () => {
               transition={{ delay: 0.6 }}
               className="text-base sm:text-lg text-gray-300 max-w-3xl mx-auto lg:mx-0 mb-8"
             >
-              BCA AI & DL student passionate about Data Analytics, Artificial Intelligence, Generative AI and Software Development.
+              Computer Engineering graduate passionate about Software Development, Web Development, Artificial Intelligence, and Data Analytics.
             </motion.p>
 
             <motion.div
@@ -77,7 +77,7 @@ const Hero = () => {
               className="inline-flex items-center px-4 py-2 bg-green-500/10 border border-green-500/30 rounded-full mb-8"
             >
               <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
-              <span className="text-green-400 text-sm font-medium">Open to Internship Opportunities</span>
+              <span className="text-green-400 text-sm font-medium">Open to Full-Time Opportunities</span>
             </motion.div>
 
             <motion.div
@@ -129,8 +129,8 @@ const Hero = () => {
                 className="relative w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[400px] lg:h-[400px] rounded-3xl overflow-hidden border-2 border-white/20 shadow-2xl"
               >
                 <img
-                  src="/images/gambhir-profile.jpg"
-                  alt="Gambhir Jha - Software Developer and AI Student"
+                  src="/images/myphoto.jpg"
+                  alt="Prachi Ukey - Software Developer and Computer Engineering Graduate"
                   className="w-full h-full object-cover"
                   loading="eager"
                 />
