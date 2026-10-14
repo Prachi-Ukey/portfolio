@@ -1,12 +1,17 @@
 import React, { useRef } from "react";
-import { motion, useMotionValue, useSpring, useTransform, useReducedMotion } from "framer-motion";
+import {
+  motion,
+  useMotionValue,
+  useSpring,
+  useTransform,
+  useReducedMotion,
+} from "framer-motion";
 import {
   Terminal,
   Activity,
   Sparkles,
   Code2,
   CheckCircle2,
-  Workflow,
 } from "lucide-react";
 
 // Crisp brand & technology SVG icons
@@ -81,9 +86,6 @@ export const HeroVisual: React.FC = () => {
 
   const telemetryX = useTransform(smoothX, [-0.5, 0.5], shouldReduceMotion ? [0, 0] : [18, -18]);
   const telemetryY = useTransform(smoothY, [-0.5, 0.5], shouldReduceMotion ? [0, 0] : [14, -14]);
-
-  const archX = useTransform(smoothX, [-0.5, 0.5], shouldReduceMotion ? [0, 0] : [12, -12]);
-  const archY = useTransform(smoothY, [-0.5, 0.5], shouldReduceMotion ? [0, 0] : [-12, 12]);
 
   const dsaX = useTransform(smoothX, [-0.5, 0.5], shouldReduceMotion ? [0, 0] : [-12, 12]);
   const dsaY = useTransform(smoothY, [-0.5, 0.5], shouldReduceMotion ? [0, 0] : [12, -12]);
