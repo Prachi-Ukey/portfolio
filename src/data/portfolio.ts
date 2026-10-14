@@ -1,3 +1,4 @@
+
 export const portfolioData = {
   personal: {
     name: "Prachi Ukey",
@@ -13,12 +14,20 @@ export const portfolioData = {
     university: "Genba Sopanrao Moze College of Engineering, Pune",
     duration: "2022–2026",
     cgpa: [
-      { semester: "Overall CGPA", value: 7.96 },
+      {
+        semester: "Overall CGPA",
+        value: 7.96,
+      },
     ],
   },
 
   skills: {
-    programming: ["Python", "Java", "JavaScript", "SQL"],
+    programming: [
+      "Python",
+      "Java",
+      "JavaScript",
+      "SQL",
+    ],
 
     frontend: [
       "HTML",
@@ -33,12 +42,14 @@ export const portfolioData = {
       "Node.js",
       "Express.js",
       "REST APIs",
+      "FastAPI",
       "Axios",
     ],
 
     databases: [
       "MySQL",
       "MongoDB",
+      "PostgreSQL",
     ],
 
     dataAnalytics: [
@@ -55,6 +66,7 @@ export const portfolioData = {
     tools: [
       "Git",
       "GitHub",
+      "Docker",
       "Postman",
       "JDBC",
       "Swing",
@@ -74,6 +86,40 @@ export const portfolioData = {
 
   projects: [
     {
+      name: "RepoLens AI",
+      technology: [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "RAG",
+        "LLMs",
+        "Docker",
+      ],
+      description:
+        "Developed an AI-powered repository analysis platform that analyzes codebases, retrieves relevant source-code context, and answers questions about project architecture, technologies, and implementation using retrieval-augmented generation (RAG).",
+      github: "https://github.com/Prachi-Ukey/repolens-ai",
+    },
+
+    {
+      name: "EnergyPilot AI",
+      technology: [
+        "React",
+        "JavaScript",
+        "FastAPI",
+        "PostgreSQL",
+        "Pandas",
+        "Scikit-learn",
+        "Isolation Forest",
+        "Docker",
+      ],
+      description:
+        "Built an AI-powered energy optimization platform that analyzes electricity consumption data, detects abnormal usage patterns, predicts energy trends, and provides actionable recommendations through an interactive analytics dashboard.",
+      github: "https://github.com/Prachi-Ukey/EnergyPilot-AI",
+    },
+
+    {
       name: "Real-Time Chat Application",
       technology: [
         "React.js",
@@ -85,7 +131,8 @@ export const portfolioData = {
       ],
       description:
         "Developed a real-time chat application with user authentication, one-to-one messaging, online user status, timestamps, image sharing, emoji support, and protected routes.",
-      github: "https://github.com/Prachi-Ukey/realtime-chat-application",
+      github:
+        "https://github.com/Prachi-Ukey/realtime-chat-application",
     },
 
     {
@@ -100,7 +147,8 @@ export const portfolioData = {
       ],
       description:
         "Developed an AI-based system to detect and localize vehicle damage, estimate damage severity, and predict insurance claim costs using computer vision and machine learning.",
-      github: "https://github.com/Prachi-Ukey/vehicle-damage-detection",
+      github:
+        "https://github.com/Prachi-Ukey/vehicle-damage-detection",
     },
 
     {
@@ -114,7 +162,8 @@ export const portfolioData = {
       ],
       description:
         "Developed a desktop-based bank management system with a Java Swing interface and MySQL database integration for managing customer accounts and banking operations.",
-      github: "https://github.com/Prachi-Ukey/Bank-Management-System",
+      github:
+        "https://github.com/Prachi-Ukey/Bank-Management-System",
     },
   ],
 
